@@ -1,0 +1,37 @@
+header {
+    border-bottom: 2px solid #dfdfe1;;
+    height: 52px;
+  }
+  .logo .partnerText {
+    font-weight: 500;
+    display: inline-block;
+    color: #959599;
+    position: relative;
+    top: 5px;  
+  }
+  .logo .logo-section {
+    display: inline-block;
+    height: 45px;
+    margin: 10px 5px auto 50px
+  }
+  .account {
+    margin: 10px 100px auto auto;
+    float: right;
+  }
+  .nav-StoreLogo-svg {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .accountIcon {
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+  }
+  #navbarSupportedContent {
+    display: inline-block;
+  }
+  .nav-link, .dropdown-item {
+    color: #211e22;
+    font-size: 14px;
+  }
+  

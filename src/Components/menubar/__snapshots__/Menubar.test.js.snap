@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menubar testing 1`] = `
+<div
+  className="left-menubar"
+  style={
+    Object {
+      "width": "3%",
+    }
+  }
+>
+  <div
+    className="burger"
+    onClick={[Function]}
+  >
+    <div
+      className="line1"
+    />
+    <div
+      className="line2"
+    />
+    <div
+      className="line3"
+    />
+  </div>
+  <div
+    className="navbar-scroll"
+  >
+    <ul>
+      <li>
+        <span>
+          <i
+            className="bi bi-clipboard-data"
+          />
+        </span>
+        <ul
+          className="child "
+        >
+          <li />
+          <li />
+        </ul>
+      </li>
+      <li>
+        <span>
+          <i
+            className="bi bi-clipboard-data"
+          />
+        </span>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
