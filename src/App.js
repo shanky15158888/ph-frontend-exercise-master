@@ -1,14 +1,18 @@
 import './App.css';
 import React from 'react'
-import Header from './Containers/headerContainer/Header';
-import Menubar from './Containers/menubarContainer/Menubar';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Homepage from './Components/homepage/Homepage';
 
 function App() {
   return (
-    <main className="wayfair-container">
-      <Menubar/>
-      <Header/>
-    </main>
+    <Router>
+      <main className="wayfair-container">
+        <Switch>
+          <Route path="/" exact>{Homepage}</Route>
+          <Route path="/home">{Homepage}</Route>
+        </Switch>
+      </main>
+    </Router>
   );
 }
 
